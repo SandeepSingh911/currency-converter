@@ -29,8 +29,6 @@ def ok():
     converted = round(float(DICT)*float(price), 2)
     result.delete(1.0, END)
     result.insert(INSERT, converted)
-    # result.insert(INSERT, "Price in ", INSERT, answer,
-    #               INSERT, " = ", INSERT, converted)
 
 
 appName = Label(converter, text="Currency Converter", font=(
